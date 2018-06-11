@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from __future__ import division
+from __future__ import division, print_function
 
 from nltk.tokenize import word_tokenize
 
@@ -9,8 +9,8 @@ import data
 
 import theano
 import sys
-import codecs
 import re
+from io import open
 
 import theano.tensor as T
 import numpy as np
